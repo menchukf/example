@@ -12,7 +12,10 @@ public class HelloWorldSwing {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //Add the ubiquitous "Hello World" label.
+
         JLabel label = new JLabel("goodbye");
+
+    
         frame.getContentPane().add(label);
 
         //Display the window.
